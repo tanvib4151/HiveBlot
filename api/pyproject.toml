@@ -1,0 +1,24 @@
+[project]
+name = "hive-api"
+version = "0.1.0"
+description = "Hive backend: FastAPI search API over Supabase-hosted Western Blot records"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "supabase",
+    "asyncpg",
+    "python-dotenv",
+    "pydantic",
+    "pydantic-settings",
+    "openai",
+    "sqlglot",
+    "slowapi",
+]
+
+[dependency-groups]
+dev = ["pytest", "httpx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

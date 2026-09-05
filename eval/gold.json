@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "status": "SEED - reviewed by the implementer only; AWAITING wet-lab annotation",
+    "note": "These 4 gold cases correspond to the Phase-3 worked examples. Expand to 10-20 curated cases with UCSF review before quoting accuracy. A null modification_type value with status SUPPORTED means 'total/unmodified protein'; null value with status CONFLICTING means 'unsettled'."
+  },
+  "A_standard_western": {
+    "canonical_target": {"value": "STAT3", "status": "SUPPORTED"},
+    "uniprot_id": {"value": "P40763"},
+    "modification_type": {"value": null, "status": "SUPPORTED"},
+    "residue": {"value": null},
+    "experiment_type": {"value": "standard_western", "status": "SUPPORTED"},
+    "cell_line": {"value": "HEK293T"},
+    "treatment_name": {"value": null},
+    "antibody_vendor": {"value": "Cell Signaling Technology"},
+    "antibody_catalog_number": {"value": "4904"},
+    "reported_kda": {"value": null},
+    "band_state": {"value": "present"},
+    "record_status": "SUPPORTED"
+  },
+  "B_phospho_western": {
+    "canonical_target": {"value": "STAT3", "status": "SUPPORTED"},
+    "uniprot_id": {"value": "P40763"},
+    "modification_type": {"value": "phosphorylation", "status": "SUPPORTED"},
+    "residue": {"value": "Tyr", "status": "SUPPORTED"},
+    "residue_position": {"value": 705},
+    "experiment_type": {"value": "phospho_western", "status": "SUPPORTED"},
+    "cell_line": {"value": "HEK293T"},
+    "treatment_name": {"value": "IL-6"},
+    "antibody_vendor": {"value": "Cell Signaling Technology"},
+    "antibody_catalog_number": {"value": "9145"},
+    "band_state": {"value": "absent"},
+    "record_status": "SUPPORTED"
+  },
+  "C_co_ip": {
+    "canonical_target": {"value": "STAT3", "status": "SUPPORTED"},
+    "uniprot_id": {"value": "P40763"},
+    "modification_type": {"value": null, "status": "SUPPORTED"},
+    "experiment_type": {"value": "co_ip", "status": "SUPPORTED"},
+    "ip_bait_protein": {"value": "EGFR"},
+    "cell_line": {"value": "A549"},
+    "antibody_vendor": {"value": "Cell Signaling Technology"},
+    "antibody_catalog_number": {"value": "4904"},
+    "band_state": {"value": "present"},
+    "record_status": "SUPPORTED"
+  },
+  "D_conflicting": {
+    "canonical_target": {"value": "STAT3", "status": "SUPPORTED"},
+    "modification_type": {"value": null, "status": "CONFLICTING"},
+    "experiment_type": {"status": "AMBIGUOUS"},
+    "record_status": "CONFLICTING",
+    "expect_anomaly": "MODIFICATION_CONFLICT"
+  }
+}

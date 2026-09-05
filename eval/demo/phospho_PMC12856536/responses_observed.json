@@ -1,0 +1,1295 @@
+[
+  {
+    "candidate_path": "page_003_cand_0021.png",
+    "rows": []
+  },
+  {
+    "candidate_path": "page_003_cand_0022.png",
+    "rows": []
+  },
+  {
+    "candidate_path": "page_004_cand_0029.png",
+    "rows": [
+      {
+        "raw_target": "P-STAT3 (Tyr705)",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells treated with IL-6 (10 ng/ml) for the indicated times (0, 5, 10, 20, 30, 60 min)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "P-STAT3 (Tyr705)",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "9145",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": true,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "p-STAT3 (Tyr705; 1:1,000; CST #9145)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "0 min",
+            "band_state": "absent",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "5 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "10 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "20 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "30 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "60 min",
+            "band_state": "present",
+            "confidence": "medium"
+          }
+        ]
+      },
+      {
+        "raw_target": "P-STAT3 (Ser727)",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells treated with IL-6 (10 ng/ml) for the indicated times (0, 5, 10, 20, 30, 60 min)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "P-STAT3 (Ser727)",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "9134",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": true,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "p-STAT3 (Ser727; 1:1,000; CST #9134)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "0 min",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "5 min",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "10 min",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "20 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "30 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "60 min",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "raw_target": "T-STAT3",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells treated with IL-6 (10 ng/ml) for the indicated times (0, 5, 10, 20, 30, 60 min)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "T-STAT3",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4904",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "t-STAT3 (1:1,000; CST #4904)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "0 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "5 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "10 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "20 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "30 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "60 min",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "raw_target": "β-actin",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells treated with IL-6 (10 ng/ml) for the indicated times (0, 5, 10, 20, 30, 60 min)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "β-actin",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4967",
+            "clone": "",
+            "dilution": "1:2,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "β-actin (1:2,000; CST #4967)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "0 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "5 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "10 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "20 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "30 min",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "60 min",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_path": "page_006_cand_0043.png",
+    "rows": []
+  },
+  {
+    "candidate_path": "page_005_cand_0034.png",
+    "rows": [
+      {
+        "raw_target": "P-STAT3 (Ser727)",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "CL-E",
+        "treatment_context": "Fig 3C: Hep3B cells treated with CL-E (60 ug/ml) with or without the PKC inhibitor Bisindolylmaleimide II (20 uM) or the MEK/ERK inhibitor U0126 (20 uM), in the absence of IL-6",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "P-STAT3 (Ser727)",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "9134",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": true,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "p-STAT3 (Ser727; 1:1,000; CST #9134)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "ctrl",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "CL-E",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "CL-E + Bis II",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "CL-E + U0126",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "Bis II",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "U0126",
+            "band_state": "uncertain",
+            "confidence": "low"
+          }
+        ]
+      },
+      {
+        "raw_target": "T-Stat3",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "CL-E",
+        "treatment_context": "Fig 3C: Hep3B cells treated with CL-E (60 ug/ml) with or without the PKC inhibitor Bisindolylmaleimide II (20 uM) or the MEK/ERK inhibitor U0126 (20 uM), in the absence of IL-6",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "T-Stat3",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4904",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "t-STAT3 (1:1,000; CST #4904)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "ctrl",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "CL-E",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "CL-E + Bis II",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "CL-E + U0126",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "Bis II",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "U0126",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "raw_target": "β-actin",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "CL-E",
+        "treatment_context": "Fig 3C: Hep3B cells treated with CL-E (60 ug/ml) with or without the PKC inhibitor Bisindolylmaleimide II (20 uM) or the MEK/ERK inhibitor U0126 (20 uM), in the absence of IL-6",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "β-actin",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4967",
+            "clone": "",
+            "dilution": "1:2,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "β-actin (1:2,000; CST #4967)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "ctrl",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "CL-E",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "CL-E + Bis II",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "CL-E + U0126",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "Bis II",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "U0126",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "raw_target": "P-STAT3 (Tyr705)",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Fig 3D: Hep3B cells stimulated with IL-6 (10 ng/ml) with or without CL-E (60 ug/ml), Bisindolylmaleimide II (20 uM) or U0126 (20 uM)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "P-STAT3 (Tyr705)",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "9145",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": true,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "p-STAT3 (Tyr705; 1:1,000; CST #9145)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "ctrl",
+            "band_state": "absent",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + CL-E",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + CL-E + Bis II",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + CL-E + U0126",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "Bis II",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 7,
+            "lane_condition": "U0126",
+            "band_state": "uncertain",
+            "confidence": "low"
+          }
+        ]
+      },
+      {
+        "raw_target": "T-Stat3",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Fig 3D: Hep3B cells stimulated with IL-6 (10 ng/ml) with or without CL-E (60 ug/ml), Bisindolylmaleimide II (20 uM) or U0126 (20 uM)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "T-Stat3",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4904",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "t-STAT3 (1:1,000; CST #4904)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "ctrl",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + CL-E",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + CL-E + Bis II",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + CL-E + U0126",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "Bis II",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 7,
+            "lane_condition": "U0126",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "raw_target": "β-actin",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Fig 3D: Hep3B cells stimulated with IL-6 (10 ng/ml) with or without CL-E (60 ug/ml), Bisindolylmaleimide II (20 uM) or U0126 (20 uM)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "β-actin",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4967",
+            "clone": "",
+            "dilution": "1:2,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "β-actin (1:2,000; CST #4967)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "ctrl",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + CL-E",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + CL-E + Bis II",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + CL-E + U0126",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 6,
+            "lane_condition": "Bis II",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 7,
+            "lane_condition": "U0126",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_path": "page_005_cand_0036.png",
+    "rows": [
+      {
+        "raw_target": "P-ERK 1/2",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells treated with IL-6 (10 ng/ml) for the indicated times (0, 5, 10, 20, 30, 60 min)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "P-ERK 1/2",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4370",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": true,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "p-ERK (1:1,000; CST #4370)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "0 min",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "5 min",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "10 min",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "30 min",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "60 min",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          }
+        ]
+      },
+      {
+        "raw_target": "T-ERK 1/2",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells treated with IL-6 (10 ng/ml) for the indicated times (0, 5, 10, 20, 30, 60 min)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "T-ERK 1/2",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4695",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "t-ERK (1:1,000; CST #4695)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "lane1",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "lane2",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "lane3",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "lane4",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "lane5",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          }
+        ]
+      },
+      {
+        "raw_target": "β-actin",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells treated with IL-6 (10 ng/ml) for the indicated times (0, 5, 10, 20, 30, 60 min)",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "β-actin",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4967",
+            "clone": "",
+            "dilution": "1:2,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "β-actin (1:2,000; CST #4967)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "lane1",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "lane2",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "lane3",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "lane4",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "lane5",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_path": "page_004_cand_0028.png",
+    "rows": [
+      {
+        "raw_target": "P-STAT3 (Tyr705)",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells pretreated with CL-E at 10, 30 and 60 ug/ml for 1 h, then stimulated with IL-6 (10 ng/ml) for 30 min",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "P-STAT3 (Tyr705)",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "9145",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": true,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "p-STAT3 (Tyr705; 1:1,000; CST #9145)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "IL-6 - / CL-E -",
+            "band_state": "absent",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6 + / CL-E -",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + / CL-E 10",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + / CL-E 30",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + / CL-E 60",
+            "band_state": "present",
+            "confidence": "low"
+          }
+        ]
+      },
+      {
+        "raw_target": "P-STAT3 (Ser727)",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells pretreated with CL-E at 10, 30 and 60 ug/ml for 1 h, then stimulated with IL-6 (10 ng/ml) for 30 min",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "P-STAT3 (Ser727)",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "9134",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": true,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "p-STAT3 (Ser727; 1:1,000; CST #9134)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "IL-6 - / CL-E -",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6 + / CL-E -",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + / CL-E 10",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + / CL-E 30",
+            "band_state": "present",
+            "confidence": "medium"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + / CL-E 60",
+            "band_state": "present",
+            "confidence": "medium"
+          }
+        ]
+      },
+      {
+        "raw_target": "T-STAT3",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells pretreated with CL-E at 10, 30 and 60 ug/ml for 1 h, then stimulated with IL-6 (10 ng/ml) for 30 min",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "T-STAT3",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4904",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "t-STAT3 (1:1,000; CST #4904)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "IL-6 - / CL-E -",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6 + / CL-E -",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + / CL-E 10",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + / CL-E 30",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + / CL-E 60",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      },
+      {
+        "raw_target": "β-actin",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells pretreated with CL-E at 10, 30 and 60 ug/ml for 1 h, then stimulated with IL-6 (10 ng/ml) for 30 min",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "β-actin",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4967",
+            "clone": "",
+            "dilution": "1:2,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "β-actin (1:2,000; CST #4967)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "IL-6 - / CL-E -",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6 + / CL-E -",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + / CL-E 10",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + / CL-E 30",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + / CL-E 60",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_path": "page_005_cand_0035.png",
+    "rows": [
+      {
+        "raw_target": "P-ERK 1/2",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells pretreated with CL-E at 10, 30 and 60 ug/ml for 1 h, then stimulated with IL-6 (10 ng/ml) for 30 min",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "P-ERK 1/2",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4370",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": true,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "p-ERK (1:1,000; CST #4370)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "IL-6 - / CL-E -",
+            "band_state": "uncertain",
+            "confidence": "low"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6 + / CL-E -",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + / CL-E 10",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + / CL-E 30",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + / CL-E 60",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          }
+        ]
+      },
+      {
+        "raw_target": "T-ERK 1/2",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells pretreated with CL-E at 10, 30 and 60 ug/ml for 1 h, then stimulated with IL-6 (10 ng/ml) for 30 min",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "T-ERK 1/2",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4695",
+            "clone": "",
+            "dilution": "1:1,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "t-ERK (1:1,000; CST #4695)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "IL-6 - / CL-E -",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6 + / CL-E -",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + / CL-E 10",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + / CL-E 30",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + / CL-E 60",
+            "band_state": "present",
+            "confidence": "high",
+            "band_pattern": "doublet",
+            "band_count": 2,
+            "band_notes": "two closely spaced bands visible in each lane"
+          }
+        ]
+      },
+      {
+        "raw_target": "β-actin",
+        "sample": "Hep3B",
+        "organism": "",
+        "treatment_name": "IL-6",
+        "treatment_context": "Hep3B cells pretreated with CL-E at 10, 30 and 60 ug/ml for 1 h, then stimulated with IL-6 (10 ng/ml) for 30 min",
+        "aliases": [],
+        "antibodies": [
+          {
+            "target": "β-actin",
+            "vendor": "Cell Signaling Technology",
+            "catalog": "4967",
+            "clone": "",
+            "dilution": "1:2,000",
+            "role": "detection",
+            "phospho_specific": false,
+            "source": {
+              "type": "methods",
+              "rank": 3,
+              "text": "β-actin (1:2,000; CST #4967)"
+            }
+          }
+        ],
+        "bands": [
+          {
+            "lane_index": 1,
+            "lane_condition": "IL-6 - / CL-E -",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 2,
+            "lane_condition": "IL-6 + / CL-E -",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 3,
+            "lane_condition": "IL-6 + / CL-E 10",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 4,
+            "lane_condition": "IL-6 + / CL-E 30",
+            "band_state": "present",
+            "confidence": "high"
+          },
+          {
+            "lane_index": 5,
+            "lane_condition": "IL-6 + / CL-E 60",
+            "band_state": "present",
+            "confidence": "high"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "candidate_path": "page_006_cand_0042.png",
+    "rows": []
+  }
+]

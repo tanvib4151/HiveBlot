@@ -1,0 +1,3 @@
+# Minimal Supabase CLI config. `supabase link --project-ref <REF>` binds this
+# repo to the real cloud project; project_id below is only the LOCAL name.
+project_id = "hiveblot"

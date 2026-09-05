@@ -1,0 +1,43 @@
+# Render Blueprint — HiveBlot beta API (FastAPI).
+#
+# Free tier on purpose. Read DEPLOYMENT.md §2 before changing anything here.
+#
+# Deploy: Render dashboard -> New -> Blueprint -> pick nikhilesh-s/hive ->
+# branch feature/bio-context-beta. Render reads this file, creates the service
+# on the FREE plan, and then prompts for the four secret values below
+# (sync: false = "never store this in git, ask me in the dashboard").
+#
+# Free-plan behaviour, accepted deliberately: the service spins down after
+# ~15 minutes idle and the next request pays a cold start (~30-60 s). The
+# filesystem is ephemeral — which is safe here because the API never writes to
+# disk at runtime. Supabase is the only persistence layer.
+services:
+  - type: web
+    name: hiveblot-api
+    runtime: docker
+    plan: free                  # do NOT change: starter/standard/pro all bill
+    region: oregon
+    branch: feature/bio-context-beta
+    dockerfilePath: ./api/Dockerfile
+    dockerContext: .            # repo root — the Dockerfile COPYs api/crops/
+    healthCheckPath: /health
+    autoDeploy: false           # deploys are deliberate, not every push
+    envVars:
+      # --- secrets: entered in the Render dashboard, never committed ---------
+      - key: DB_READONLY_URL    # hive_readonly, Supavisor SESSION mode (5432)
+        sync: false
+      - key: DB_FEEDBACK_URL    # hive_feedback, Supavisor SESSION mode (5432)
+        sync: false
+      - key: SUPABASE_KEY       # anon key; only /proteins and / need it
+        sync: false
+      - key: INTERNAL_API_KEY   # must equal the Vercel web app's value
+        sync: false
+      # --- non-secret ---------------------------------------------------------
+      - key: SUPABASE_URL
+        value: https://zafombwswztvnjikcsdm.supabase.co
+      - key: OPENAI_KEY         # empty => deterministic bio_query search path
+        value: ""
+      - key: AGENT_API_KEYS     # /v1/search stays closed until a key is issued
+        value: ""
+      - key: ALLOWED_ORIGINS    # the deployed Vercel origin (+ local dev)
+        value: https://hiveblot-beta.vercel.app,http://localhost:3000

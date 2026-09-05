@@ -1,0 +1,35 @@
+# Each app has its own more specific .gitignore (web/.gitignore, api/.gitignore).
+# This one catches OS/editor cruft at the repo root.
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Python ingestion engine (western_blot_miner) + eval
+# api/ and web/ ignore their own .env files; the miner has no .gitignore, so
+# its env file (may hold a personal ANTHROPIC_API_KEY) is caught here.
+western_blot_miner/.env
+western_blot_miner/.env.*
+!western_blot_miner/.env.example
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+western_blot_miner/data/
+pdf_runs/
+eval/out/
+
+# Large open-access PDFs (fetch via PMCID in research/real_pipeline_report.md)
+research/papers/*.pdf
+
+# Embedded local Postgres for dev (scripts/local_db.py)
+.localdb/
+
+# api/crops/ IS tracked on purpose: Render builds from the GitHub clone, so the
+# 21 referenced panel crops (~6 MB) must be in the repo for the deployed image
+# to serve figure evidence. Refresh with scripts/stage_crops.py.
+
+# Serena MCP local state
+.serena/

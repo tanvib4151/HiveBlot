@@ -1,0 +1,6 @@
+# Local development stack: API + ingestion dependencies plus embedded Postgres.
+# Production API deploys should continue to install api/requirements.txt only.
+-r api/requirements.txt
+-r western_blot_miner/requirements.txt
+
+pgserver
